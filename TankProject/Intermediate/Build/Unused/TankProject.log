@@ -1,0 +1,34 @@
+﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TankProjectEditor Win64 Development -Project="C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\TankProject.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\GenTl\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise).
+  Invalidating makefile for TankProjectEditor (working set of source files changed)
+  Parsing headers for TankProjectEditor
+    Running Internal UnrealHeaderTool C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\TankProject.uproject C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\TankProjectEditor\Development\TankProjectEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 3 written
+  Reflection code generated for TankProjectEditor in 0.8905604 seconds
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Binaries\Win64\UnrealEditor-TankProject-0002.dll
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Binaries\Win64\UnrealEditor-TankProject-0002.pdb
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Binaries\Win64\UnrealEditor-TankProject-0204.dll
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Binaries\Win64\UnrealEditor-TankProject-0204.pdb
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Binaries\Win64\UnrealEditor-TankProject-2317.dll
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Binaries\Win64\UnrealEditor-TankProject-2317.pdb
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject-0002.lib
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject-0204.lib
+  Deleted hot-reload file: C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject-2317.lib
+  Building TankProjectEditor...
+  Using Visual Studio 2022 14.36.32537 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+  Building 8 actions with 8 processes...
+  [1/8] Compile TankProject.init.gen.cpp
+  [2/8] Compile TankPlayerCharacter.gen.cpp
+  [3/8] Compile ProjectileActor.gen.cpp
+  [4/8] Compile TankPlayerCharacter.cpp
+  [5/8] Compile ProjectileActor.cpp
+  [6/8] Link UnrealEditor-TankProject.lib
+     Creating library C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject.lib and object C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject.exp
+  [7/8] Link UnrealEditor-TankProject.dll
+     Creating library C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject.suppressed.lib and object C:\Users\GenTl\OneDrive\Documents\GitHub\VivalandExercise\TankProject\Intermediate\Build\Win64\UnrealEditor\Development\TankProject\UnrealEditor-TankProject.suppressed.exp
+  [8/8] WriteMetadata TankProjectEditor.target
+  Total time in Parallel executor: 11.90 seconds
+  Total execution time: 15.14 seconds

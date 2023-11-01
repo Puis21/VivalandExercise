@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\tankproject.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\tankprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\development\\tankproject\\definitions.tankproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

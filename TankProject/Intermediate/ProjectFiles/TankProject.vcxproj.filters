@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TankProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TankProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TankProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Source\TankProject">
+      <UniqueIdentifier>{5490DA0A-B71A-35CC-A91D-DDB734ABC701}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TankProject\ProjectileActor.cpp">
+      <Filter>Source\TankProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\ProjectileActor.h">
+      <Filter>Source\TankProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\TankPlayerCharacter.cpp">
+      <Filter>Source\TankProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\TankPlayerCharacter.h">
+      <Filter>Source\TankProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\TankPlayerController.cpp">
+      <Filter>Source\TankProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\TankPlayerController.h">
+      <Filter>Source\TankProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TankProject\TankProject.Build.cs">
+      <Filter>Source\TankProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TankProject\TankProject.cpp">
+      <Filter>Source\TankProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\TankProject.h">
+      <Filter>Source\TankProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\TankProjectGameModeBase.cpp">
+      <Filter>Source\TankProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\TankProjectGameModeBase.h">
+      <Filter>Source\TankProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\TankProject\Player">
+      <UniqueIdentifier>{44251939-220E-3799-80EF-989FECAD2C6F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TankProject\Player\TankPawnCharacter.cpp">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Player\TankPawnCharacter.h">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

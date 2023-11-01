@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TankProject",
+			"Path": "C:\\Users\\GenTl\\OneDrive\\Documents\\GitHub\\VivalandExercise\\TankProject\\Source\\TankProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TankProjectEditor",
+			"Path": "C:\\Users\\GenTl\\OneDrive\\Documents\\GitHub\\VivalandExercise\\TankProject\\Source\\TankProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
