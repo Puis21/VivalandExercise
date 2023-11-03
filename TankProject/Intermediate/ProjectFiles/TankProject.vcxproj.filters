@@ -48,16 +48,16 @@
     <ClInclude Include="..\..\Source\TankProject\ProjectileActor.h">
       <Filter>Source\TankProject</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TankProject\TankPlayerCharacter.cpp">
+    <ClCompile Include="..\..\Source\TankProject\TankGameMode.cpp">
       <Filter>Source\TankProject</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TankProject\TankPlayerCharacter.h">
+    <ClInclude Include="..\..\Source\TankProject\TankGameMode.h">
       <Filter>Source\TankProject</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TankProject\TankPlayerController.cpp">
+    <ClCompile Include="..\..\Source\TankProject\TankGameState.cpp">
       <Filter>Source\TankProject</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TankProject\TankPlayerController.h">
+    <ClInclude Include="..\..\Source\TankProject\TankGameState.h">
       <Filter>Source\TankProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\TankProject\TankProject.Build.cs">
@@ -75,6 +75,72 @@
     <ClInclude Include="..\..\Source\TankProject\TankProjectGameModeBase.h">
       <Filter>Source\TankProject</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TankProject\Teams.h">
+      <Filter>Source\TankProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\TankProject\Components">
+      <UniqueIdentifier>{1E406A41-2720-3D57-BA42-164E1D5FC333}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TankProject\Components\BuffComponent.cpp">
+      <Filter>Source\TankProject\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Components\BuffComponent.h">
+      <Filter>Source\TankProject\Components</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Components\CombatComponent.cpp">
+      <Filter>Source\TankProject\Components</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Components\CombatComponent.h">
+      <Filter>Source\TankProject\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\TankProject\HUD">
+      <UniqueIdentifier>{0F2E8360-A85C-31B4-8871-A6E7AD8898FE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TankProject\HUD\OverheadWidget.cpp">
+      <Filter>Source\TankProject\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\HUD\OverheadWidget.h">
+      <Filter>Source\TankProject\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\HUD\OverlayWidget.cpp">
+      <Filter>Source\TankProject\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\HUD\OverlayWidget.h">
+      <Filter>Source\TankProject\HUD</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\HUD\TankHUD.cpp">
+      <Filter>Source\TankProject\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\HUD\TankHUD.h">
+      <Filter>Source\TankProject\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Source\TankProject\Pickups">
+      <UniqueIdentifier>{64D21981-40AA-3E91-927B-3B4134DA39AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TankProject\Pickups\FireRatePickup.cpp">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Pickups\FireRatePickup.h">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Pickups\Pickup.cpp">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Pickups\Pickup.h">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Pickups\PickupSpawnPoint.cpp">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Pickups\PickupSpawnPoint.h">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Pickups\SpeedPickup.cpp">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Pickups\SpeedPickup.h">
+      <Filter>Source\TankProject\Pickups</Filter>
+    </ClInclude>
     <Filter Include="Source\TankProject\Player">
       <UniqueIdentifier>{44251939-220E-3799-80EF-989FECAD2C6F}</UniqueIdentifier>
     </Filter>
@@ -82,6 +148,24 @@
       <Filter>Source\TankProject\Player</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TankProject\Player\TankPawnCharacter.h">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Player\TankPlayerCharacter.cpp">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Player\TankPlayerCharacter.h">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Player\TankPlayerController.cpp">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Player\TankPlayerController.h">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TankProject\Player\TankPlayerState.cpp">
+      <Filter>Source\TankProject\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TankProject\Player\TankPlayerState.h">
       <Filter>Source\TankProject\Player</Filter>
     </ClInclude>
   </ItemGroup>

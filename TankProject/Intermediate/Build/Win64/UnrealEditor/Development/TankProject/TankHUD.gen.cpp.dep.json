@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\tankhud.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\tankprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\development\\tankproject\\definitions.tankproject.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\hud\\tankhud.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\debugtextinfo.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\hud.generated.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\tankhud.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

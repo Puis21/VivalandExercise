@@ -7,6 +7,8 @@
 #include "NiagaraFunctionLibrary.h"
 #include "Components/AudioComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "Player/TankPlayerCharacter.h"
+#include "Player/TankPlayerController.h"
 
 // Sets default values
 AProjectileActor::AProjectileActor()
@@ -42,8 +44,50 @@ void AProjectileActor::BeginPlay()
 
 void AProjectileActor::Destroyed()
 {
+	if (!bHit && !HasAuthority())
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation(), FRotator::ZeroRotator);
+		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ImpactEffect, GetActorLocation());
+		if (LoopingSoundComponent) LoopingSoundComponent->Stop(); // Stop loop for clients
+		bHit = true;
+	}
+
+	if (LoopingSoundComponent) LoopingSoundComponent->Stop(); //Make sure it stop when destroyed
+	Super::Destroyed();
+
 }
 
 void AProjectileActor::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	ATankPlayerCharacter* OwnerCharacter = Cast<ATankPlayerCharacter>(GetOwner());
+	if (OtherActor != OwnerCharacter)			
+	{
+		if (!bHit)
+		{
+			if (ATankPlayerCharacter* HitActor = Cast<ATankPlayerCharacter>(OtherActor))
+			{
+				ATankPlayerController* InstigatorController = Cast<ATankPlayerController>(OwnerCharacter->GetController()); //Get damage dealer
+				if (InstigatorController)
+				{
+					HitActor->OnHit(InstigatorController);
+				}
+			}
+			UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation(), FRotator::ZeroRotator);
+			UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ImpactEffect, GetActorLocation());
+			if (LoopingSoundComponent) LoopingSoundComponent->Stop(); //Stop loop for server
+			bHit = true;
+		}
+
+		if (HasAuthority())
+		{
+
+			Destroy();
+		}
+		else
+		{
+			bHit = true;
+		}
+
+	}
+
 }

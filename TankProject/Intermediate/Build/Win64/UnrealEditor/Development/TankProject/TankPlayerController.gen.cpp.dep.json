@@ -6,7 +6,7 @@
         "PCH": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\tankprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
             "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\development\\tankproject\\definitions.tankproject.h",
-            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\tankplayercontroller.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\player\\tankplayercontroller.h",
             "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\tankplayercontroller.generated.h"
         ],
         "ImportedModules": [],

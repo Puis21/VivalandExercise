@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\pickups\\speedpickup.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\tankprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\development\\tankproject\\definitions.tankproject.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\pickups\\speedpickup.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\pickups\\pickup.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\pickup.generated.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\speedpickup.generated.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\player\\tankplayercharacter.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\teams.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\tankplayercharacter.generated.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\source\\tankproject\\components\\buffcomponent.h",
+            "c:\\users\\gentl\\onedrive\\documents\\github\\vivalandexercise\\tankproject\\intermediate\\build\\win64\\unrealeditor\\inc\\tankproject\\uht\\buffcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
